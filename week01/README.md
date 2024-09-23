@@ -1,4 +1,4 @@
-# [WEEK 01] 온보딩
+# [WEEK 01] 온보딩 (기간 : 9/23 ~ 9/26)
 
 ## COW SPRING 4기 PRE-ONBOARDING 학습 과제
 

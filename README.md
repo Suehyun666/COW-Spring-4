@@ -105,10 +105,10 @@ COW 스프링 4기 - 학습 미션을 위한 저장소
    <img  src="https://avatars.githubusercontent.com/u/141540490?v=4"  width="100px;"  alt=""/>
  </td>
  <td  align="center">
-   <img  src=""  width="100px;"  alt=""/>
+   <img  src="https://avatars.githubusercontent.com/u/166277733?v=4"  width="100px;"  alt=""/>
  </td>
  <td  align="center">
-   <img  src=""  width="100px;"  alt=""/>
+   <img  src="https://avatars.githubusercontent.com/u/162711131?v=4"  width="100px;"  alt=""/>
  </td>
 </tr>
 <tr>
@@ -118,12 +118,12 @@ COW 스프링 4기 - 학습 미션을 위한 저장소
      </a>
  </td>
  <td align="center">
-     <a href="">
+     <a href="https://github.com/yunjin1213">
          <div>김윤진</div>
      </a>
  </td>
  <td align="center">
-     <a href="">
+     <a href="https://github.com/usernamejunhyuk/">
          <div>이준혁</div>
      </a>
  </td>

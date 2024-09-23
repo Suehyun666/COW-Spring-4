@@ -60,6 +60,76 @@ COW 스프링 4기 - 학습 미션을 위한 저장소
 
 ### 👩‍👧‍👦 멘티
 
+<center>
+<table  width="100%">
+  <tr>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/134712764?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/169584238?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/134720359?v=4"  width="100px;"  alt=""/>
+    </td>
+    <td  align="center">
+      <img  src="https://avatars.githubusercontent.com/u/136908616?v=4"  width="100px;"  alt=""/>
+    </td>
+  </tr>
+  <tr>
+    <td align="center">
+        <a href="https://github.com/Seooooo24">
+            <div>서아영</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Suehyun666">
+            <div>박수현</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/Jungsukwoo">
+            <div>정석우</div>
+        </a>
+    </td>
+    <td align="center">
+        <a href="https://github.com/baaamk">
+            <div>방현우</div>
+        </a>
+    </td>
+  </tr>
+</table>
+<table  width="100%">
+<tr>
+ <td  align="center">
+   <img  src="https://avatars.githubusercontent.com/u/141540490?v=4"  width="100px;"  alt=""/>
+ </td>
+ <td  align="center">
+   <img  src=""  width="100px;"  alt=""/>
+ </td>
+ <td  align="center">
+   <img  src=""  width="100px;"  alt=""/>
+ </td>
+</tr>
+<tr>
+ <td align="center">
+     <a href="https://github.com/enohs">
+         <div>김시온</div>
+     </a>
+ </td>
+ <td align="center">
+     <a href="">
+         <div>김윤진</div>
+     </a>
+ </td>
+ <td align="center">
+     <a href="">
+         <div>이준혁</div>
+     </a>
+ </td>
+</tr>
+</table>
+</center>
 
 ## 📖 커리큘럼
 

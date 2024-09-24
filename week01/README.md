@@ -19,9 +19,8 @@
 
 ## www.google.com을 치면 일어나는일
 Keywords : DNS, TCP/IP프로토콜, WS, WAS
-
 ---
-
+이렇게 하면 좀 바뀌나 궁금해요
 ## API, HTTP통신
 
 ---

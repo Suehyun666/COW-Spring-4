@@ -18,18 +18,31 @@
 # 필수
 
 ## www.google.com을 치면 일어나는일
-Keywords : DNS, TCP/IP프로토콜, WS, WAS
+
 ---
-1. 브라우저 주소창에 www.google.com을 입력하면 브라우저가 해당 URL의 IP 주소를 찾기 위해 캐시에서 DNS 기록을 확인한다.
+### Keywords : DNS, TCP/IP프로토콜, WS, WAS
+
+---
+### 1.  브라우저 주소창에 www.google.com을 입력하면 브라우저가 해당 URL의 IP 주소를 찾기 위해 캐시에서 DNS 기록을 확인한다.
 >DNS란?
 > 
-> DNS는 인터넷의 전화번호부라고 할 수 있다. DNS는 웹사이트의 도메인 이름을 고유한 IP 주소와 연결해 주는 시스템이다. 예를 들어, 사용자가 웹 브라우저에 google.com을 입력해서 해당 웹 사이트에 접근하는건 쉽지만, 
+> DNS(Domain Name System)는 인터넷의 전화번호부라고 할 수 있다. DNS는 웹사이트의 도메인 이름을 고유한 IP 주소와 연결해 주는 시스템이다. 예를 들어, 사용자가 웹 브라우저에 google.com을 입력해서 해당 웹 사이트에 접근하는건 쉽지만, 
 > 192.xxx.xxx.xxx와 같은 IP 주소를 기억하고 입력하는 것은 어렵다.
 > DNS는 사람이 이해하기 쉬운 도메인 이름을 컴퓨터가 통신할 수 있는 IP 주소로 변환해 주어, 웹사이트에 쉽게 접근할 수 있도록 돕는다.
 > 
 > 캐시를 찾는 이유: 
 > 
 >브라우저는 내가 이전에 방문한 웹 사이트의 DNS 기록을 일정 기간 동안 저장하고 있으므로, 캐시를 확인해서 DNS 기록을 찾는다.
+
+### 2. 만약 요청한 URL(www.goolge.com)이 캐시에 없다면, ISP의 DNS 서버가 DNS 쿼리로 www.google.com을 호스팅하는 서버의 IP 주소를 찾는다.
+
+>DNS 쿼리란?
+DNS Query(쿼리)
+
+
+
+
+
 
 ## API, HTTP통신
 
@@ -50,3 +63,10 @@ Keywords : DNS, TCP/IP프로토콜, WS, WAS
 ## MVC 패턴
 
 ---
+
+
+## 출처
+
+- [브라우저에 url을 입력하면 어떤 일이 벌어질까?](https://velog.io/@khy226/브라우저에-url을-입력하면-어떤일이-벌어질까)
+- [브라우저에 www.google.com을 치면 일어나는 일](https://velog.io/@o1011/브라우저에-www.google.com-을-치면-일어나는일)
+- [DNS란? (AWS Route 53)](https://aws.amazon.com/ko/route53/what-is-dns/)

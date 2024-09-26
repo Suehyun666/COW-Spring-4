@@ -111,6 +111,26 @@ www.google.com 의 GET 요청은 다음과 같다.
 ## API, HTTP통신
 
 ---
+## HTTP 통신
+HTTP는 두 컴퓨터간에 텍스트 데이터를 주고 받는 길이다. HTTP 라는 길로 요청(request)과 응답(response) 두 가지를 서로 주고 받을 수 있다.
+
+* HTTP 요청: 웹 브라우저에서 홈페이지(front-end)가 실행중이라면, 작성한 게시물(데이터)을 HTTP를 통해 서버(back-end)로 보내고
+서버는 이 데이터를 데이터베이스에 저장 해달라고 요청한다.
+
+
+> #### 그럼 데이터베이스에 바로 요청하면 안되는걸까?
+> 
+> 보안 및 데이터 정제 등의 이윺로 Back-end 에서 검증 과정을 거쳐야 하기 때문에, 아무나 함부로 데이터 베이스에 요청할 수 없다.
+
+
+* HTTP 응답(Res): 요청을 받은 서버는 성공, 실패 등의 처리 결과를 응답한다. 이때 서버에서는 응답할 때 100-599 사이 숫자의 상태 코드도 함께 보내준다.
+자주 몰 수 있는 상태코드는 성공(200), front-end 에러(400), back-end 에러(500)등이 있다.
+
+
+## API
+
+
+
 
 ## 백엔드가 하는 일
 
@@ -137,7 +157,7 @@ IP에 대한 점..
 WS / WAS dp 에 대한 점..
 
 
-## 출처
+## 참고
 
 - [브라우저에 url을 입력하면 어떤 일이 벌어질까?](https://velog.io/@khy226/브라우저에-url을-입력하면-어떤일이-벌어질까)
 - [브라우저에 www.google.com을 치면 일어나는 일](https://velog.io/@o1011/브라우저에-www.google.com-을-치면-일어나는일)
@@ -145,3 +165,4 @@ WS / WAS dp 에 대한 점..
 - [DNS(Domain Name System)란?](https://velog.io/@zinukk/9kpyzbdt)
 - [IP(Internet Protocol)](https://dreamcoding.tistory.com/33)
 - [TCP란?](https://velog.io/@younghyun/TCP란)
+- 

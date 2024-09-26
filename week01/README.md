@@ -31,8 +31,12 @@ API는 프로그램 내에서 실행을 위해 특정 서브루틴에 연결을 
 쉽게 말해서 응용 프로그램과 소통하기 위한 일련의 약속이 API라고 할 수 있다.<br/>
 최근에는 여러 기업이나 국가 기관이 자체 서버를 운영하며 데이터를 관리하고 있는데, 이런 서버에 접근하여 데이터를 사용할 수 있도록 '오픈 API'라는 형태로 API를 공개하고 있다.<br/>
 
-HTTP 통신이란, Hyper Text Transfer Protocol의 약자로 인터넷에서 웹 서버와 인터넷 브라우저 사이에 문서를 전송하기 위해 사용되는 통신 규약을 말한다.<br/>
-
+HTTP 통신이란, Hyper Text Transfer Protocol의 약자로 클라이언트와 서버 간 통신을 위한 통신 규칙 세트 또는 프로토콜을 말한다.<br/>
+네트워크 통신을 작동하게 하는 기본 기술으로, HTTPS는 HTTP에서 서버와 클라이언트 간 통신에서 암호화된 연결을 지원하는 기술이다.<br/>
+HTTP 통신은 먼저 HTTP 클라이언트가 요청문, 헤더, 바디로 구성된 형식에 맞춰서 HTTP 서버에 요청 메시지를 보낸다.<br/>
+그 후 HTTP 서버는 HTTP 클라이언트가 보낸 요청 메시지를 수신해 상태문, 헤더, 바디로 구성된 형식에 맞춰 응답 메시지를 보낸다.<br/>
+이러한 통신 방식을 비상태 연결이라고 한다.<br/>
+HTTP의 요청 및 응답 메시지는 MIME(Multipurpose Internet Message Extensions) 유사 구조를 사용해 데이터를 전송한다.<br/>
 
 ---
 
@@ -95,4 +99,6 @@ MVC 모델을 웹 애플리케이션에 쉽게 적용가능한 라이브러리�
 [What Does a Back-End Developer Do?](https://www.codecademy.com/resources/blog/what-does-a-back-end-developer-do/?utm_source=ccblog&utm_medium=ccblog&utm_campaign=ccblog&utm_content=cw_what_is_back_end_blog)<br/>
 [API](https://terms.naver.com/entry.naver?docId=1179553&cid=40942&categoryId=32837)<br/>
 [API](https://terms.naver.com/entry.naver?docId=6653674&cid=69974&categoryId=69974)<br/>
-
+[HTTP와 HTTPS의 차이점은 무엇인가요?](https://aws.amazon.com/ko/compare/the-difference-between-https-and-http/)<br/>
+[요청과 응답](https://terms.naver.com/entry.naver?docId=2271986&cid=51207&categoryId=51207&expCategoryId=51207)<br/>
+[HTTP의 동작 과정](https://terms.naver.com/entry.naver?docId=2271987&cid=51207&categoryId=51207&expCategoryId=51207)<br/>

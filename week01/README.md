@@ -137,3 +137,7 @@ MVC 모델을 웹 애플리케이션에 쉽게 적용가능한 라이브러리�
 [HTTP의 동작 과정](https://terms.naver.com/entry.naver?docId=2271987&cid=51207&categoryId=51207&expCategoryId=51207)<br/>
 [웹 브라우저에서 URL을 입력했을 때 일어나는 과정](https://f-lab.kr/insight/web-browser-url-process)<br/>
 [주소창에 url을 검색하면 생기는 일들 (DNS, ARP, TCP, TLS/SSL, HTTP)](https://goldfishhead.tistory.com/23)<br/>
+[DNS](https://terms.naver.com/entry.naver?docId=2271994&cid=51207&categoryId=51207#TABLE_OF_CONTENT3)<br/>
+[DNS](https://terms.naver.com/entry.naver?docId=1179826&cid=40942&categoryId=32848)<br/>
+[[WEB] 🌐 웹 서비스 구조 (Web서버 / 웹컨테이너 / WAS) 정리](https://inpa.tistory.com/entry/WEB-%F0%9F%8C%90-%EC%9B%B9-%EC%84%9C%EB%B9%84%EC%8A%A4-%EA%B5%AC%EC%A1%B0-%EC%A0%95%EB%A6%AC#web_server)<br/>
+[WAS, WS 그리고 servlet](https://velog.io/@qf9ar8nv/WAS-WS-%EC%A0%95%EB%A6%AC)<br/>

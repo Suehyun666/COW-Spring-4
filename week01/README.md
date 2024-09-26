@@ -44,17 +44,30 @@ DNS Query DNS 서버에 보내지고, DNS 서버는 이를 처리하고 응답�
 
 ### 3. 브라우저가 해당 서버와 TCP 연결을 시작한다.
 
-> 브라우저가 올바른 IP 주소를 수신하면 IP 주소와 일치하는 서버와 연결해 정보를 전송한다. 브라우저는 인터넷 프로토콜을 사용하여 이러한 연결을 구축한다.
-> 사용할 수 있는 여러가지 Protocol이 있지만, 일반적으로 HTTP 요청에서는 TCP라는 전송 제어 프로토콜을 사용한다.
+> 브라우저가 올바른 IP 주소를 수신하면 IP 주소와 일치하는 서버와 연결해 정보를 전송한다. 브라우저는 인터넷 프로토콜(IP, Internet Protocol)을 사용하여 이러한 연결을 구축한다.
+> 사용할 수 있는 여러가지 Protocol이 있지만, 일반적으로 HTTP 요청에서는 TCP(Transmission Control Protocol)라는 전송 제어 프로토콜을 사용한다.
 
-> Protocol이란? 
-> Protocol에 대해...
+* Internet Protocol이란? 
+> 
+> Internet Protocol(IP)은 데이터 패킷이 네트워크를 통해 이동하고 올바른 대상에 도착할 수 있도록 데이터 패킷을 라우팅하고 주소를 지정하기 위한 프로토콜 또는 규칙의 집합이다.
+> 
+> 쉽게 말해, 송신자가 보내고 싶은 데이터를 지정한 IP(수신자)에게 전달하는 역할이라고 할 수 있다. 이때, 전송하고자 하는 데이터를 하나의 패킷(Packet)이라는 통신 단위로 묶어 전달한다.
 
-> TCP란?
-> TCP에 대해...
+* TCP란?
+> 
+> TCP는 서버와 클라이언트 간에 데이터를 신뢰성 있게 전달하기 위해 만들어진 프로토콜(통신 규칙)이다. 또한, 데이터를 전송하기 전에 데이터 전송을 위한 연결을 만드는 연결지향 프로토콜이라고 할 수 있다.
+>> TCP/IP
+>>
+>> TCP/IP는 전송계층의 TCP와 네트워크 계층의 IP프로토콜을 합친 프로토콜 스위트(모음)으로, TCP는 데이터의 정확성 확인, IP는 패킷을 목적지까지 전송하는 역할을 한다.
+인터넷 접속을 위한 기본 프로토콜이다.
+또한, TCP/IP에선 OSI 7 Layer을 대체하는 TCP/IP 4 Layer가 있다.
 
+### 4. 브라우저가 웹 서버에 HTTP 요청을 보낸다.
 
-
+> TCP 연결이 설정되면 데이터 전송이 시작된다. 브라우저는 www.google.com 웹 페이지를 요청하는 GET 요청을 보낸다.
+> 
+> www.Google.com 의 GET 요청은 다음과 같다.
+![Get 요청](./img/Getter.png)
 
 
 
@@ -79,9 +92,17 @@ DNS Query DNS 서버에 보내지고, DNS 서버는 이를 처리하고 응답�
 ---
 
 
+## 느낀점 & 궁금한점
+
+---
+IP에 대한 점..
+
+
 ## 출처
 
 - [브라우저에 url을 입력하면 어떤 일이 벌어질까?](https://velog.io/@khy226/브라우저에-url을-입력하면-어떤일이-벌어질까)
 - [브라우저에 www.google.com을 치면 일어나는 일](https://velog.io/@o1011/브라우저에-www.google.com-을-치면-일어나는일)
 - [DNS란? (AWS Route 53)](https://aws.amazon.com/ko/route53/what-is-dns/)
 - [DNS(Domain Name System)란?](https://velog.io/@zinukk/9kpyzbdt)
+- [IP(Internet Protocol)](https://dreamcoding.tistory.com/33)
+- [TCP란?](https://velog.io/@younghyun/TCP란)

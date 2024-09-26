@@ -114,7 +114,8 @@ www.google.com 의 GET 요청은 다음과 같다.
 ## HTTP 통신
 HTTP는 두 컴퓨터간에 텍스트 데이터를 주고 받는 길이다. HTTP 라는 길로 요청(request)과 응답(response) 두 가지를 서로 주고 받을 수 있다.
 
-* HTTP 요청: 웹 브라우저에서 홈페이지(front-end)가 실행중이라면, 작성한 게시물(데이터)을 HTTP를 통해 서버(back-end)로 보내고
+* ### HTTP 요청
+웹 브라우저에서 홈페이지(front-end)가 실행중이라면, 작성한 게시물(데이터)을 HTTP를 통해 서버(back-end)로 보내고
 서버는 이 데이터를 데이터베이스에 저장 해달라고 요청한다.
 
 
@@ -123,12 +124,36 @@ HTTP는 두 컴퓨터간에 텍스트 데이터를 주고 받는 길이다. HTTP
 > 보안 및 데이터 정제 등의 이윺로 Back-end 에서 검증 과정을 거쳐야 하기 때문에, 아무나 함부로 데이터 베이스에 요청할 수 없다.
 
 
-* HTTP 응답(Res): 요청을 받은 서버는 성공, 실패 등의 처리 결과를 응답한다. 이때 서버에서는 응답할 때 100-599 사이 숫자의 상태 코드도 함께 보내준다.
+* ### HTTP 응답(Res)
+요청을 받은 서버는 성공, 실패 등의 처리 결과를 응답한다. 이때 서버에서는 응답할 때 100-599 사이 숫자의 상태 코드도 함께 보내준다.
 자주 몰 수 있는 상태코드는 성공(200), front-end 에러(400), back-end 에러(500)등이 있다.
 
 
 ## API
+API란 HTTP 요청을 서버에 보냈을때 실행되는 back-end 기능이다. 즉, API는 back-end 개발자가 만든 함수이다. 요청할때 보내는 데이터는
+API 함수로 들어가는 인자이고, 응답을 받게되는 데이터가 API 함수의 return 데이터이다.
+> ![API](./img/API.png)
+> API에 대한 개념 설명
 
+
+
+## API의 종류(Rest API VS GraphQI API)
+
+### 1. 함수 이름의 차이
+> Rest API는 API이름이 홈페이지 주소처럼 생겼다.
+> 
+> GraphQI API는 API 이름이 일반적이 함수와 같다.
+
+### 2. 응답 결과물의 차이
+> Rest API는 응답 결과로 back-end 개발자가 만든 함수에서 보내주는 모든 데이터를 받아야 한다.
+> 
+> GraphQl API는 back-end 개발자가 만든 함수에서 필요한 데이터만 골라 받을 수 있다.
+> * GraphQl API는 필요한 데이터만 골라 받을 수 있는 장점이 있어서 효율적인 통신을 할 수 있다.
+
+### 3. 라이브러리
+> Rest API는 axios
+> 
+> GraphQI API는 apollo-client
 
 
 
@@ -165,4 +190,5 @@ WS / WAS dp 에 대한 점..
 - [DNS(Domain Name System)란?](https://velog.io/@zinukk/9kpyzbdt)
 - [IP(Internet Protocol)](https://dreamcoding.tistory.com/33)
 - [TCP란?](https://velog.io/@younghyun/TCP란)
-- 
+- [HTTP 통신과 API(Rest API, GraphQI API)](https://velog.io/@larmong/HTTP-통신)
+- [HTTP 통신과 API](https://velog.io/@sehee-xx/HTTP-통신과-API)

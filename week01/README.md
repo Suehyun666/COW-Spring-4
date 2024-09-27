@@ -133,7 +133,7 @@ HTTP는 두 컴퓨터간에 텍스트 데이터를 주고 받는 길이다. HTTP
 ## API
 API란 HTTP 요청을 서버에 보냈을때 실행되는 back-end 기능이다. 즉, API는 back-end 개발자가 만든 함수이다. 요청할때 보내는 데이터는
 API 함수로 들어가는 인자이고, 응답을 받게되는 데이터가 API 함수의 return 데이터이다.
-> ![API ](https://github.com/user-attachments/assets/f1ce31e1-8349-45e5-8ada-330085f6ff2e)
+> ![API](https://github.com/user-attachments/assets/f1ce31e1-8349-45e5-8ada-330085f6ff2e)
 > API에 대한 개념 설명
 
 

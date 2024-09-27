@@ -67,7 +67,7 @@ DNS Query DNS 서버에 보내지고, DNS 서버는 이를 처리하고 응답�
 > TCP 연결이 설정되면 데이터 전송이 시작된다. 브라우저는 www.google.com 웹 페이지를 요청하는 GET 요청을 보낸다.
 
 www.google.com 의 GET 요청은 다음과 같다.
-> ![Get 요청](./img/Getter.png)
+> ![Get 요청](https://github.com/user-attachments/assets/d80193de-ae6b-4da5-aebf-34789cd7d08f)
 >* 요청하는 서버의 도메인 이름: www.google.com
 >* 사용된 HTTP 메서드: GET
 >* 요청된 리소스 경로: /
@@ -79,7 +79,8 @@ www.google.com 의 GET 요청은 다음과 같다.
 > 서버 응답에는 요청한 웹 페이지와 함께 상태 코드(status code), 압축 유형(Content-Encoding), 페이지 캐싱 방법(Cache-Control) 등이 포함된다.
 
 다음은 서버의 HTTP 응답 예시이다.
-> ![응답](./img/response.png)
+> ![응답](https://github.com/user-attachments/assets/7bbdab6a-b3d4-4f03-bc8a-f6ed676def77
+)
 >>위의 응답을 보면 Status Code 헤더에 상태 코드가 표시된다. 이것이 우리에게 response의 상태를 알려주기 때문에 매우 중요하다. 숫자 코드를 사용하여 HTTP 응답 결과를 다섯가지 상태로 나눈다.
 >>
 >>> * 1xx(In)1xx (Information Response): 정보 메시지만을 나타낸다. 서버가 요청을 받았으며 서버에 연결된 클라이언트는 계속해서 작업을 하라는 뜻.
@@ -103,7 +104,7 @@ www.google.com 의 GET 요청은 다음과 같다.
 > 첫째로, HTML 골격을 렌더링한다. 그런다음 HTML 태그를 확인하고 이미지, CSS 스타일시트, JavaScript 파일 등과 같은 웹 페이지의 추가 요소에 대한 GET 요청을 보낸다.
 > 그리고 정적 파일(Static File)은 브라우저에서 캐싱되므로 다음에 페이지를 방문할 때 다시 가져올 필요가 없다. 그리고 마지막으로, www.google.com 페이지가 브라우저에 나타난다.
 
-![최종 페이지](./img/google.png)
+![최종 페이지](https://github.com/user-attachments/assets/ddb3b682-3fbe-4adf-a117-81ebbf68c641)
 
 
 
@@ -132,7 +133,7 @@ HTTP는 두 컴퓨터간에 텍스트 데이터를 주고 받는 길이다. HTTP
 ## API
 API란 HTTP 요청을 서버에 보냈을때 실행되는 back-end 기능이다. 즉, API는 back-end 개발자가 만든 함수이다. 요청할때 보내는 데이터는
 API 함수로 들어가는 인자이고, 응답을 받게되는 데이터가 API 함수의 return 데이터이다.
-> ![API](./img/API.png)
+> ![API](https://github.com/user-attachments/assets/f1ce31e1-8349-45e5-8ada-330085f6ff2e)
 > API에 대한 개념 설명
 
 

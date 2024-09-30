@@ -119,3 +119,20 @@ public int multiply(int x, int y) {
 람다식을 재사용가능한 함수로 만들기 위해서는 람다식을 변수에 저장하거나 또 다른 메소드로 정의해야한다.
 
 [[Java] 람다식(Lambda Expressions) -> 사용법 & 예제](https://coding-factory.tistory.com/265)
+
+---
+
+## IllegalArgumentException
+
+메소드가 유효하지 않거나 컨텍스트에서 부적절한 인수를 받았을 때 발생하는 런타임 예외처리이다.
+과제에서 사용한 IllegalArgumentException의 경우 입력받은 당첨 로또 번호가 6개인지, 중복된 번호를 입력받았는지, 입력받은 번호의 범위가 1~45 인지 검증하는 메소드에서 사용됐다.
+
+```
+private void validateNumber(List<Integer> numbers) {
+        if (numbers.size() != 6) {
+            throw new IllegalArgumentException("[ERROR] 로또 번호는 6개여야 합니다.");
+        }
+    }
+```
+
+---

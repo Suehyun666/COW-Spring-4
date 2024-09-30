@@ -136,3 +136,37 @@ private void validateNumber(List<Integer> numbers) {
 ```
 
 ---
+
+## 매직 넘버
+
+매직 넘버는 코드에서 값의 의미나 목적이 명확하게 알려지지 않은 것이다.
+이러한 매직 넘버는 코드의 가독성이 떨어지고 유지 보수가 어렵게 만들기에 상수나 변수를 사용해야 한다.
+
+```
+// 3.14의 의미가 무엇인지 명확하게 명시되어 있지 않음
+function calculateArea(radius) {
+    return 3.14 * radius * radius;
+}
+```
+```
+// 이렇게 확장자 값을 직접적으로 사용해도 매직 넘버가 됨
+function getFileType(fileName) {
+    if (fileName.endsWith(".jpg")) {
+        return "image";
+    } else if (fileName.endsWith(".mp3")) {
+        return "audio";
+    } else if (fileName.endsWith(".txt")) {
+        return "text";
+    } else {
+        return "unknown";
+    }
+}
+```
+```
+// 이렇게 new Date(birthDate).getFullYear();가 어떤 의미인지 정확히 명시되어 있지 않은 것도 매직 넘버가 될 수 있음
+function calculateAge(birthDate) {
+  const currentYear = new Date().getFullYear();
+  const birthYear = new Date(birthDate).getFullYear();
+  return currentYear - birthYear;
+}
+```
